@@ -12,14 +12,14 @@ display.show(Image.HAPPY)
 sleep(400)
 cookieNumber = 0
 
-#Click cookie
+# Click cookie
 display.clear
 while True:
     if button_a.was_pressed():
         cookieNumber = cookieNumber + 1
         display.show(cookieNumber)
 
-#Clear cookie
+# Clear cookie
 display.clear
 while True:
     if button_b.was_pressed():
